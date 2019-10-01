@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Email</title>
+    <style>
+    table {
+        font-size:0.9em;
+    }
+    thead {
+        position: relative;
+        
+        top:-2vh;
+    }
+        .top-container {
+            background-color:rgb(173, 24, 24);
+            width:80vw;
+            justify-content: space-between;
+            z-index:10;
+            padding:20px;
+            top:-2vh;
+            position:relative;
+            color:white;
+            font-size:1.2em;
+            font-weight:bold;
+            font-family:'Courier New', Courier, monospace;
+            margin:auto;
+        }
+
+        .banner-container {
+            background-color:rgb(211, 200, 200);
+            padding:40px;
+            width:80vw;
+            margin:auto;
+            position: relative;
+            z-index:10;
+            font-size:1.8em;
+        top:-2vh;
+        color:rgb(248, 244, 244);
+        background-image:url("http://www.baltana.com/files/wallpapers-5/Pizza-Background-Wallpaper-15277.jpg");
+        background-size:cover;
+        background-position:center;
+        max-height:20vh;
+        font-weight:bold;
+        }
+
+        .mid-container {
+            background-color:rgb(235, 225, 225);
+            padding:40px;
+            width:80vw;
+            margin:auto;
+            position: relative;
+            z-index:10;
+            
+        top:-2vh;
+        color:rgb(34, 31, 31);
+        }
+
+        .top-container img {
+            max-width:25vw;
+            max-height:10vw;
+            left:-8vw;
+            position: relative;
+        }
+
+        .delivery-stage-container {
+
+            background-color:rgb(211, 200, 200);
+            padding:40px;
+            width:80vw;
+            margin:auto;
+            position: relative;
+            z-index:10;
+            top:-2vh;
+            font-size:1.5em;
+            color:rgb(240, 229, 229);
+            max-height:30vh;
+            background-image:url("http://wallpaperswide.com/download/shrimps_pizza-wallpaper-5120x2160.jpg");
+            background-size:cover;
+            background-position: center;
+        }
+
+        .email-footer {
+            background-color:rgb(228, 216, 216);
+            padding:20px;
+            width:80vw;
+            margin:auto;
+            position: relative;
+            z-index:10;
+            top:-2vh;
+            font-size:0.9em;
+            color:rgb(194, 23, 23);
+            max-height:30vh;
+            border-bottom:2px solid rgb(194, 23, 23);
+        }
+
+        .red-circle {
+            position:absolute;
+            background-color:rgba(255, 0, 0, 0.712);
+            width:150px;
+            border-radius:50%;
+            left:-10%;
+            top:10%;
+            height:150px;
+        }
+        .blue-circle {
+            position:absolute;
+            background-color:rgba(25, 0, 255, 0.712);
+            width:150px;
+            left:-10%;
+            top:40%;
+            border-radius:50%;
+            height:150px;
+        }
+        .yellow-circle {
+            position:absolute;
+            background-color:rgba(255, 238, 0, 0.712);
+            width:150px;
+            border-radius:50%;
+            left:-10%;
+            top:70%;
+            height:150px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <table class="top-container">
+        <thead align="center">
+        <tr>
+            <td style="font-weight:bold;"><img src="https://locations.pizzahut.com/permanent-b0b701/assets/images/pizzahut/PizzaHutLogo.044627b7.svg"></td>
+            <td>Receipt</td>
+        </tr>
+
+        </thead>
+
+    </table>
+
+    <table class="banner-container">
+
+        <thead align="center">
+
+            
+        </thead>
+
+    </table>
+
+    <table class="mid-container">
+
+        <thead align="left">
+            <tr>
+                <td style="font-weight:bold; padding-bottom:3px; border-bottom:2px solid rgb(173, 24, 24); max-width:50%;">Your Order</td>
+                <td style="font-weight:bold; padding-bottom:3px; border-bottom:2px solid rgb(173, 24, 24); max-width:50%;" align="right">Delivering to</td>
+            </tr>
+            <tr>
+                <td>$13.50 | Large Pepperoni Pizza</td>
+                <td align="right">192 Example Ln</td>
+            </tr>
+            <tr>
+                <td>$3.00 | 2 Liter</td>
+            </tr>
+            <tr>
+                <td>$6.50 | Lava Cake</td>
+            </tr>
+            <tr>
+                <td style="font-weight:bold; padding-top:5px; border-bottom:1px solid black; width:35vw;">Total: $23</td>
+            </tr>
+        </thead>
+    </table>
+
+    <table class="delivery-stage-container">
+
+        <thead align="center">
+            <tr>
+                <td style="border-radius:10%; background-color:rgba(0, 0, 0, 0.192);">Your order is on its way!</td>
+            </tr>
+        </thead>
+    </table>
+
+    <table class="email-footer">
+
+        <thead align="left">
+            <tr>
+                <td>PizzaHut &copy; 2019</td>
+                <td>Contact</td>
+                <td>Careers</td>
+            </tr>
+        </thead>
+    </table>
+    
+                <!-- Rainbow Circles -->
+
+                <table class="red-circle">
+
+                </table>
+                <table class="yellow-circle">
+
+                </table>
+                <table class="blue-circle">
+
+                </table>
+
+</body>
+</html>
